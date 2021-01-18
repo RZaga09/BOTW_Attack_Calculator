@@ -6,7 +6,7 @@ Note: This calculator is VERY simplistic. Only the following factors are taken i
 * One-handed weapons, two-handed weapons, and spears (no bows)
 * Attack Up modifiers
 * Attack Up bonus
-* Bonus damage dealt to Guardians usign Guardian/Ancient weapons
+* Bonus damage dealt to Guardians using Guardian/Ancient weapons
 * Ancient Proficiency
 * Bone Attack Up
 * Critical Hit Multiplier
