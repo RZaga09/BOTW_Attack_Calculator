@@ -1,0 +1,49 @@
+Order of Operations
+1. Base Damage
+2. Attack Modifier
+3. Attack Up
+4. Bonus vs X Enemy
+5. Ancient Proficiency/Bone Attack Up
+6. Critical Hit/Sneakstrike/Shatter
+7. Elemental Damage
+
+Attack Up:
+	Level 1 +20%
+	Level 2 +30%
+	Level 3 +50%
+
+Bonus vs X Enemy:
+	Guardian Weapon vs Guardian +30%
+	Ancient Weapon vs Guardian + 50%
+
+Ancient Proficiency/Bone Attack Up:
+	+80% if Guardian/Ancient Weapon with Ancient Proficiency
+	+80% if Bone Weapon with Bone Attack Up
+
+Critical Hit/Sneakstrike/Shatter:
+	Critical Hit x2
+	Sneakstrike x 8
+	Shatter x3
+	Precedence Order: Shatter -> Sneakstrike -> Critical Hit
+	Sneakstrike and Shatter Ovverride Elemental Damage
+
+Elemental Damage:
+	Fire + 10
+	Ice + 10
+	Electric + 20
+	Bomb Arrow + 50
+	Electrical in Rain + 40
+	Enemy Immune to Elemental - no elemental damage
+	Enemy Under same Element - no elemental damage
+	Enemy under different Element - elemental damage applies
+
+*Master Sword always 60 base damage against Guardians/Blights/in Hyrule Castle (NOT IMPLEMENTED)
+
+*Edge Cases for MultiShot Bows (NOT IMPLEMENTED)
+	Attack Modifier Applied per Arrow
+	Fire Arrow +10 for only one arrow
+	Shock Arrow +10 for only one arrow
+	Ice Arrow + 10 for arrow 1 and x3 for arrow 2
+	Shock Arrow in Rain + 40 for all arrows
+	Bomb Arrow + 24 per arrow
+	Bomb Arrow + 24 only for 2 arrows if 3-shot or 5-shot
